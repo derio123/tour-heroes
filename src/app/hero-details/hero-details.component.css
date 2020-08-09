@@ -1,0 +1,28 @@
+#formo {
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#formo.teste1 label {
+    box-sizing: border-box;
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#formo.teste1 input{
+    width: 100%;
+}
+
+img { width: 50%; height: 50%; }
+
+@media(max-width:600px){
+
+    #formo.teste1 input{ width: 40%; }
+    img { width: 90%; height: 60%; }
+}

@@ -1,0 +1,30 @@
+<div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Details</h2>
+
+    <!-- <div><span>id: </span> {{hero.id}}</div> -->
+    <div id="formo">
+        <label class="teste1">
+            <img [src]="hero.img" alt="imagem" width="200" height="200">
+        </label>
+        <label for="name" class="teste1">
+            <p>Name: <input type="text" [(ngModel)]="hero.name" placeholder="name"></p>
+        </label>
+        <label for="name" class="teste1">
+            <p>Hero: <input type="text" [(ngModel)]="hero.heroname" placeholder="name"></p>
+        </label>
+
+        <label for="name" class="teste1">
+            <p> Breed: <input type="text" [(ngModel)]="hero.breed" placeholder="name"></p>
+        </label>
+        <label for="name" class="teste1">
+            <p> Modifiers: <input type="text" [(ngModel)]="hero.modifiers" placeholder="name"></p>
+        </label>
+
+        <label for="name" class="teste1">
+            <p> Profission: <input type="text" [(ngModel)]="hero.profission" placeholder="name"></p>
+        </label>
+        <label for="name" class="teste1">
+            <p> Level: <input type="text" [(ngModel)]="hero.level" placeholder="name"></p>
+        </label>
+    </div>
+</div>

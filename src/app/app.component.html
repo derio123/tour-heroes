@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+
+<!-- <app-heroes></app-heroes> -->
+
+<nav>
+    <ul>
+        <li><a routerLink="/dashboard">Home</a></li>
+        <li><a routerLink="/heroes">Heroes</a></li>
+        <li> <a (click)="goBack()">Voltar</a></li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+<app-messages></app-messages>
